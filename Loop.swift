@@ -2,7 +2,9 @@
 let areas = ["높은산", "스톤하임", "아즈스나", "발샤라", "부서진해변","수라마르"]
 for area in areas {
     //3글자만 프린트하세요
-    print(area)
+    if area.utf16.count == 3 {
+        print(area)
+    }
 }
 
 let Levels = [98, 100,102,104,105,106,108,110]
